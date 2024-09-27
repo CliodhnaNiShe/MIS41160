@@ -1,5 +1,5 @@
 import xpress as xp
-xp.init('C:/xpressmp/bin/xpauth.xpr')
+##xp.init('C:/xpressmp/bin/xpauth.xpr') #Path to license file 
 
 #Implementation of the Pottery problem: two decision variables, two constraints
 
