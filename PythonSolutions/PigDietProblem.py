@@ -8,7 +8,7 @@ x_corn = xp.var(name="corn_quantity", lb=0, vartype=xp.continuous) # Create corn
 x_barley = xp.var(name="barley_quantity", lb=0, vartype=xp.continuous) # Create barley variable
 x_hay = xp.var(name="hay_quantity", lb=0, vartype=xp.continuous) # Create hay variable
 
-feed_cost = 0.84 * x_corn + 0.72 * x_barley + 0.60 * x_hay # Construct the objective function
+feed_cost = 0.84 * x_corn + 0.72 * x_barley + 0.82 * x_hay # Construct the objective function
 
 carbohydrate_quantity = 90 * x_corn + 20 * x_barley + 40 * x_hay # Compute the carbohydrate quantity
 protein_quantity = 30 * x_corn + 80 * x_barley + 60 * x_hay # Compute the protein quantity
