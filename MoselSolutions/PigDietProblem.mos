@@ -32,7 +32,7 @@ model pigDietProblem
 
   corn_price := 0.84 ! Assign value
   barley_price := 0.72 ! Assign value
-  hay_price := 0.60 ! Assign value
+  hay_price := 0.82 ! Assign value
 
   corn_carbohydrate_quantity := 90 ! Assign value
   corn_protein_quantity := 30 ! Assign value
