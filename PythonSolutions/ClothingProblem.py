@@ -1,8 +1,5 @@
 import xpress as xp
 
-xp.init('C:/xpressmp/bin/xpauth.xpr')
-
-
 #Implementation of the Pottery problem: two decision variables, two constraints
 
 problem = xp.problem(name="Clothing Problem") # Create and name the Problem
